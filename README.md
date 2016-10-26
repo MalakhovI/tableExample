@@ -1,12 +1,9 @@
-# table-example
-
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+# Aline-Consulting test task
 
 ## Build & development
+Run `bower install`. 
+Install https://www.npmjs.com/package/local-web-server globally `npm install -g local-web-server`
+From the root directory run `ws -p 8181`
 
-Run `grunt` for building and `grunt serve` for preview.
+Server should be started on http://127.0.0.1:8181 
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.

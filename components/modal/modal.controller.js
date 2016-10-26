@@ -1,10 +1,8 @@
-/**
- * Created by svetlana on 25.10.16.
- */
+'use strict';
 
-// var app = angular.module('tableApp');
+ModalInstanceCtrl.$inject = ['$uibModalInstance','type'];
 
-angular.module('tableApp').controller('ModalInstanceCtrl', function ($uibModalInstance, type) {
+  function ModalInstanceCtrl ($uibModalInstance, type) {
   var $ctrl = this;
   $ctrl.type = type;
 
@@ -15,4 +13,4 @@ angular.module('tableApp').controller('ModalInstanceCtrl', function ($uibModalIn
   $ctrl.cancel = function () {
     $uibModalInstance.dismiss('cancel');
   };
-});
+};

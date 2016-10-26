@@ -11,6 +11,14 @@ function routes($stateProvider) {
       url: '/tableList',
       templateUrl: 'table_list/table_list.html',
       controller: TableListController,
-      controllerAs: 'TableList'
+      controllerAs: 'TableList',
+      resolve: {
+        items: function ($http) {
+          return $http({
+            method: 'GET',
+            url: '/tablesList'
+          });
+        }
+      }
     });
 }

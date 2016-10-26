@@ -1,0 +1,23 @@
+.table-content{
+  margin: 0 5%;
+}
+.table-content .panel-body{
+  padding: 0;
+}
+
+.table-content .col-content{
+  display: flex;
+  flex-direction: row;
+}
+.table-content .col-content li {
+  padding: 0 3%;
+  cursor: pointer;
+}
+
+.table-content .col-content .columns-itm{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start
+}

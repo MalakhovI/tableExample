@@ -1,0 +1,21 @@
+
+.table-list-container{
+  margin: 0 5%;
+}
+
+.table-list-container .panel-body{
+  padding: 0;
+
+}
+.first-in-list{
+  cursor: pointer;
+  /*pointer: ;*/
+}
+
+.table-list-container>.panel{
+  border: none;
+}
+.table-list-panel-heading{
+  border: 1px solid transparent;
+  border-radius: 4px;
+}

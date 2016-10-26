@@ -1,0 +1,11 @@
+.input-group-addon{
+  min-width: 120px;
+}
+.input-group{
+  margin: 10px 0;
+}
+
+.double-row .input-1st{
+  border-radius: 0 5px 5px 0 !important;
+
+}

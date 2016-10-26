@@ -1,0 +1,15 @@
+<div class="table-content">
+  <div class="panel panel-default">
+    <div class="panel-heading">Columns:</div>
+    <ul class="nav" ng-repeat="(key,col) in Table.data">
+      <li class="panel-body" >
+        <a ng-click="Table.openModal(col.type)">
+          <ul class="nav col-content">
+            <li>{{key}}</li>
+            <li class="columns-itm">{{col.type}}</li>
+          </ul>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

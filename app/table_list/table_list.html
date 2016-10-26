@@ -1,0 +1,11 @@
+<div class="table-list-container">
+  <div class="panel panel-default">
+    <div class="panel-heading table-list-panel-heading">Tables:</div>
+    <ul class="nav " ng-repeat="name in TableList.tablesName" >
+      <li class="list-group-item" ng-class='{disabled:!$first}'>
+        <a ng-if="$first" ui-sref="table">{{name}}</a>
+        <a ng-if="!$first" href="#">{{name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

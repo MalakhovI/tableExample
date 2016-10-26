@@ -1,0 +1,27 @@
+<style>
+</style>
+<div class="modal-header modal-container">
+    <h3 class="modal-title" id="modal-title">Type: {{$ctrl.type}}</h3>
+  </div>
+  <div class="modal-body double-row" id="modal-body">
+    <div class="input-group"><span class="input-group-addon">Substring:</span>
+      <div>
+      <input class="form-control input-1st" placeholder="Start" type="text">
+      <input class="form-control input-2nd" placeholder="Length" type="text">
+      </div>
+    </div>
+    <div class="input-group"><span class="input-group-addon">Len:</span>
+      <div class="form-control">12</div>
+    </div>
+    <div class="input-group"> <span class="input-group-addon">Concat:</span>
+      <input class="form-control" placeholder="Select columns" type="text">
+    </div>
+    <div class="input-group"><span class="input-group-addon">Equals:</span>
+      <input class="form-control"  type="text">
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
+</div>
+
